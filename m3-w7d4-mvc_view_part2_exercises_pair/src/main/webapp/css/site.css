@@ -55,4 +55,57 @@ section {
 	min-height: 450px;
 	background-color: #FFF;
 	border-radius: 7px;
+	padding: 25px;
+	
+}
+
+img.rating {
+    width: 80px;
+}
+
+img.recipeImage {
+	width: 80%;
+}
+
+#tileImage{
+	width: 100%;
+}
+
+tr.gray {
+	background-color: #c9c9c9;
+}
+
+tr.gray > th {
+	background-color: white;
+	grid-auto-rows: 100%;
+	max-width: 50%;
+}
+
+#recipeTable {
+	border-collapse: collapse;
+
+}
+
+.container {
+	display: flex
+}
+
+.second{
+	background-color: #E0EABC;
+	position: relative;
+}
+#star {
+	background-color: #E0EABC;
+	float: left;
+	width:100%;
+	
+	
+}
+#ingredients {
+	background-color: #E0EABC;
+	position: absolute;
+	float:right;
+	right: 0px;
+	
+}	
 }
