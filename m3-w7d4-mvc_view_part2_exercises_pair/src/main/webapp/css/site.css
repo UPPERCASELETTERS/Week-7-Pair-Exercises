@@ -67,8 +67,8 @@ img.recipeImage {
 	width: 80%;
 }
 
-#tileImage{
-	width: 100%;
+.tileImage{
+	width: 80%;
 }
 
 tr.gray {
@@ -86,26 +86,33 @@ tr.gray > th {
 
 }
 
-.container {
+.flexContainer {
 	display: flex
+	
+	
 }
 
-.second{
-	background-color: #E0EABC;
-	position: relative;
+.flexContainerTile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 4px;
 }
-#star {
+
+.tanSpace {
 	background-color: #E0EABC;
-	float: left;
-	width:100%;
-	
-	
+	width: 80%;
+	min-height: 100px
 }
-#ingredients {
-	background-color: #E0EABC;
-	position: absolute;
-	float:right;
-	right: 0px;
-	
+
+.flexContainerText {
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-end;
+}
+
+.flexContainerName {
+	display: flex;
+	align-self: flex-end;
 }	
 }
