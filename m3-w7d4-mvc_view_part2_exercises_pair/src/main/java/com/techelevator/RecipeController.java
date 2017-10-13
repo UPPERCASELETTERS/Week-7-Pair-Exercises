@@ -31,6 +31,7 @@ public class RecipeController {
 		return "recipeDetails";
 	}
 	
+	
 	private Recipe getRecipeById(Long recipeId) {
 		for(Recipe r : getAllRecipes()) {
 			if(r.getRecipeId().equals(recipeId)) {

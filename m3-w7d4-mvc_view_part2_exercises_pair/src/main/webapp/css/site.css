@@ -115,4 +115,18 @@ tr.gray > th {
 	display: flex;
 	align-self: flex-end;
 }	
+#star {
+	height: 20px;
+}
+.hipsterAndOldMan {
+	color: #8ab436;
+	text-align: center;
+}
+.masterContainer {
+	display: flex;
+}
+#description {
+	text-align: bottom;
+}
+
 }
