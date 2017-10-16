@@ -1,6 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-
+<c:set var="pageTitle" value="Table View"/>
 <%@ include file="common/header.jspf" %>
        <!-- Use the request attribute "recipes" (List<Recipe>) -->
          <table id="recipeTable">
